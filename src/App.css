@@ -1,0 +1,86 @@
+.card{
+  border: 1px solid grey;
+  width: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #ffff;
+  display: block;
+  margin: 50px auto;
+  box-shadow: 0 0px 10px 2px grey;
+}
+
+.card-img{
+  height: 150px;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-title{
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+.card-text{
+  font-size: 14px;
+text-align: justify;
+padding: 0 10px;
+}
+
+.card-btn{
+  background-color: rgb(35, 35, 247);
+  color: #ffff;
+  padding: 7px 15px;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+.card-btn:hover{
+  background-color: rgb(8, 8, 148);
+}
+
+.card-price-container{
+  display: flex;
+}
+.card-price{
+  margin:0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-total{
+  margin:0;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.card-quantity-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-quantity-icon{
+  cursor: pointer;
+  height: 30px;
+}
+
+.card-quantity{
+  font-size: 30px;
+  margin: 10px 20px;
+}
+
+.card-error{
+  color: red;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+}
