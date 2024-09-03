@@ -3,7 +3,7 @@ import ImgSamosa from "./samosa.png";
 import "./App.css";
 import ImgPlus from "./plus.png";
 import ImgMinus from "./minus.png";
-import { Toaster } from "react-hot-toast";
+
 
 function App() {
   const SAMOSA_PRICE = 12;
@@ -77,7 +77,7 @@ function App() {
         </div>
       </div>
 
-      <Toaster />
+     
     </>
   );
 }
